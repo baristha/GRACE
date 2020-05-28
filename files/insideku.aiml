@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>^ COURSE ^</pattern>
+	    <template><srai>^ COURSES ^</srai></template>
+    </category>
+	
+	<category>
+	    <pattern>^ COURSES ^</pattern>
+	    <template>
+	        Kaziranga University provide courses/departments related to
+	        Computer Science, Engineering, Business, Basic Science,
+	        Health Science, Social Science and many more...<br/>
+	        To know more about the courses and its fee structure, tap on the link below.
+	        <button>
+	            <text>Course Details Here...</text>
+	            <url>https://www.kazirangauniversity.in/</url>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ PLACEMENT ^</pattern>
+        <template><srai>^ PLACEMENTS ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ PLACEMENTS ^</pattern>
+        <template>
+            For placement related queries and information please visit
+            www.kazirangauniversity.in<br/>
+            Or tap on the link below...
+            <link>
+                <text>link to KU placements</text>
+                <url>https://www.kazirangauniversity.in/placement</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HOSTEL ^</pattern>
+        <template><srai>^ HOSTELS ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOSTELLIFE ^</pattern>
+        <template><srai>^ HOSTELS ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ HOSTELS ^</pattern>
+        <template>
+            KU has two boys and two girls hostel which provides budget-oriented
+            sociable accomodation for students.
+            <link>
+                <text>Tap here for complete details...</text>
+                <url>https://www.kazirangauniversity.in/hostel</url>
+            </link>
+        </template>
+    </category>
+</aiml>

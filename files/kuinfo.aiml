@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>^ UNIVERSITY ^</pattern>
+	    <template><srai>TELL ME SOMETHING ABOUT KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>KU</pattern>
+	    <template><srai>TELL ME SOMETHING ABOUT KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ KAZIRANGAUNIVERSITY</pattern>
+        <template><srai>TELL ME SOMETHING ABOUT KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>TELL ME SOMETHING ABOUT KU</pattern>
+        <template><srai>TELL ME SOMETHING ABOUT KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+	
+	<category>
+	    <pattern>TELL ME SOMETHING ABOUT KAZIRANGA UNIVERSITY</pattern>
+	    <template>
+	        Kaziranga University is a UGC recognised private university
+	        located in the knowledge city of Jorhat in Assam, India.
+	        <button>
+	            <text>For more information click here...</text>
+	            <url>https://www.kazirangauniversity.in/about_kaziranga_university</url>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ CAMPUS ^</pattern>
+        <template>Do you like to take a virtual tour of the campus?</template>
+    </category>
+    
+    <category>
+            <pattern>YES</pattern>
+            <that>DO YOU LIKE TO TAKE A VIRTUAL TOUR OF THE CAMPUS</that>
+            <template>
+                See what I have found!!<br/>
+                Welcome to The Assam Kaziranga University.
+                <link>
+                    <text>Tap here to take a virtual tour of the campus.</text>
+                    <url>https://www.youtube.com/watch?v=5atERSvZW8Y</url>
+                </link>
+            </template>
+    </category>
+    
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template><srai>HOW DO I GET TO KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW DO I GET TO KU</pattern>
+        <template><srai>HOW DO I GET TO KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* LOCATION</pattern>
+        <template><srai>HOW DO I GET TO KAZIRANGA UNIVERSITY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW DO I GET TO KAZIRANGA UNIVERSITY</pattern>
+        <template>
+            <delay>3</delay>
+            See what I found in the web !!!
+            <button>
+                <text>Click here...</text>
+                <url>https://www.kazirangauniversity.in/campus</url>
+            </button>
+        </template>
+    </category>
+   
+    <category>
+        <pattern>^ OFFICIAL SITE ^</pattern>
+        <template><srai>KAZIRANGA UNIVERSITY SITE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WEBSITE ^</pattern>
+        <template><srai>KAZIRANGA UNIVERSITY SITE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>KAZIRANGA UNIVERSITY SITE</pattern>
+        <template>
+            www.kazirangauniversity.in<br/>is our Official Website!
+            <link>
+                <text>Click to visit the site...</text>
+                <url>https://www.kazirangauniversity.in/</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO APPLY</pattern>
+        <template><srai>^ ADMISSION ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ ADMISSION ^</pattern>
+        <template>
+            You can register online or visit the university
+            campus for admission.<br/>
+            To apply online, please tap on the link below...
+            <link>
+                <text>admission related complete information</text>
+                <url>https://kazirangauniversity.in/admissionsopen</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ CLASSES ^</pattern>
+        <template><srai>^ CLASS ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ CLASS ^</pattern>
+        <template>Kaziranga University's working hours are from 
+        9:00 am to 5:00 pm on week days (i.e Monday to Saturday).</template>
+    </category>
+</aiml>

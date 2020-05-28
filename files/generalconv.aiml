@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ THANK U ^</pattern>
+	    <template><srai>^ THANK YOU ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ THNK U ^</pattern>
+        <template><srai>^ THANK YOU ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ THANKS ^</pattern>
+        <template><srai>^ THANK YOU ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ THANK YOU ^</pattern>
+        <template>
+            <random>
+                <li>No worries !!!</li>
+                <li>It's my pleasure :)</li>
+                <li>Anytime ;)</li>
+                <li>You are welcome !</li>
+                <li>No problem...xoxo</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            <random>
+                <li>Okay!</li>
+                <li>Alright! Remember, you can ask me questions any time.</li>
+                <li>If you need more info, let me know.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OK</pattern>
+        <template><srai>OKAY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>OKAY!</pattern>
+        <template><srai>OKAY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>OKAY</pattern>
+        <template>;)</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            <random>
+                <li>Excellent!</li>
+                <li>Nice work!</li>
+                <li>Good to know, thanks</li>
+            </random>
+        </template>
+    </category>
+</aiml>

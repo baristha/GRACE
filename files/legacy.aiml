@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template><srai>^ CREATORS ^</srai></template>
+</category>
+
+<category>
+    <pattern>WHO CREATED U</pattern>
+    <template><srai>^ CREATORS ^</srai></template>
+</category>
+
+<category>
+    <pattern>WHO MADE YOU</pattern>
+    <template><srai>^ CREATORS ^</srai></template>
+</category>
+
+<category>
+    <pattern>WHO MADE U</pattern>
+    <template><srai>^ CREATORS ^</srai></template>
+</category>
+
+<category>
+    <pattern>^ CREATORS ^</pattern>
+    <template>At first I was just an idea, then a team at SCS led by Nishan and its members: Baristha, Rashiv and Chiranjib put their heads together. And now here I am...
+     <image>https://media.giphy.com/media/YDMAYrUr83kSk/giphy.gif</image></template>
+</category>
+
+</aiml>

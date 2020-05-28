@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>HEY ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HII ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HIII ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HELLO ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HI ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HOLA ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>OI ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>WHO ARE YOU</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT YOU</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT CAN YOU ^</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+    <template>Hello There! I'm Grace, KU's support assistant. You can ask me any university related queries 24/7.
+<br/>I am still in development and may not always provide the appropriate response 🙏. <br/>What can I do for you today ?!
+</template>
+</category>
+</aiml>

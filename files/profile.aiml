@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>^ RATAN ^</pattern>
+	    <template>
+	        <image>https://www.kazirangauniversity.in/schools/SCS/faculty/KU0281/profile.jpg</image>
+	        Ratan Kumar Saha is a professor at the school of computing sciences.<br/>
+	        <br/>
+	        Official contact details:<br/>
+	        Email: ratan@kazirangauniversity.in
+	        Mobile no: Will be added soon.<br/>
+	        To know more about him, please tap on the link below.
+	        <link>
+	            <text>ratankrsaha/info</text>
+	            <url>https://www.kazirangauniversity.in/facultyd/KU0281</url>
+            </link>
+	    </template>
+    </category>
+	
+</aiml>

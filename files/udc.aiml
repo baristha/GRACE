@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I am sorry, I have lost my train of thought. What do you want to 
+    find out more about?</template>
+  </category>
+</aiml>
+

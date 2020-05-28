@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   <category>
+       <pattern>^ DEAN</pattern>
+       <template>
+           There is a dean for each schools in KU.<br/>
+           Tap on the school you are looking for.
+           <button>
+               <text>School of Computing Sciences</text>
+               <postback>SCS</postback>
+           </button>
+           <button>
+               <text>School of Business</text>
+               <postback>SOB</postback>
+           </button>
+           <button>
+               <text>School of Engineering and Technology</text>
+               <postback>SET</postback>
+           </button>
+           <button>
+               <text>School of Social Sciences</text>
+               <postback>SSS</postback>
+           </button>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>^ SCS</pattern>
+       <template>
+           Dr. Sajal Saha is the dean of SCS.
+           <link>
+               <text>Click here to know more about him.</text>
+               <url>https://bit.ly/3c3BcS1</url>
+           </link>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>^ SOB</pattern>
+       <template>
+           We are currently working on it.<br/>
+           For now this might help...
+           <link>
+               <text>Tap here for more information.</text>
+               <url>https://www.kazirangauniversity.in/faculty/sob</url>
+           </link>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>^ SET</pattern>
+       <template>
+           We are currently working on it.<br/>
+           For now this might help...
+           <link>
+               <text>Tap here for more information.</text>
+               <url>https://www.kazirangauniversity.in/faculty/set</url>
+           </link>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>^ SSS</pattern>
+       <template>
+           We are currently working on it.<br/>
+           For now this might help...
+           <link>
+               <text>Tap here for more information.</text>
+               <url>https://www.kazirangauniversity.in/faculty/sss</url>
+           </link>
+       </template>
+   </category>
+   
+   <category>
+       <pattern>^ FACULTY ^</pattern>
+       <template>
+           <link>
+               <text>Click here for more information.</text>
+               <url>https://www.kazirangauniversity.in</url>
+           </link>
+       </template>
+   </category>
+</aiml>
